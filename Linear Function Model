@@ -1,0 +1,11 @@
+import numpy as np
+X_vals = np.array([0,1,2,3,4], dtype = float)
+y_vals = np.array([-1,1,3,5,7], dtype = float)
+#y=3x+2
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+model = Sequential([Dense(units = 1, input_shape = [1])])
+model.compile(optimizer = 'sgd', loss = 'mean_squared_error', metrics = ['accuracy'])
+model.fit(X_vals,y_vals, epochs = 1500)
+#Predicting
+print(model.predict([5]))
