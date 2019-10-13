@@ -1,2 +1,2 @@
-# Deep-Learning
-Small deep learning projects.
+# Machine-Learning
+Basic Machine Learning projects.
