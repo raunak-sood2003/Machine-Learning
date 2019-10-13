@@ -26,3 +26,4 @@ model.fit(X_train, y_train)
 #Predicting
 y_preds = model.predict(X_test)
 model.predict(X_test)
+#61.0% Accuracy
