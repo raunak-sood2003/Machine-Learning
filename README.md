@@ -1,2 +1,2 @@
 # Machine-Learning
-Basic Machine Learning projects that I have completed.
+Self taught machine learning projects
