@@ -1,2 +1,2 @@
 # Machine-Learning
-Self taught machine learning projects
+Machine learning and Deep Learning projects
